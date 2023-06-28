@@ -8,8 +8,6 @@
 import Foundation
 import SwiftUI
 
-import SwiftUI
-
 struct DetailView: View {
     @State var game: Game
     @StateObject var viewModel = ViewModel()
